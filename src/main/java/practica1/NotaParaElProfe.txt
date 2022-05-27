@@ -1,0 +1,5 @@
+Profe, respondi correctamente el problema de Singleton en la clase del
+dia Jueves, por lo que en esta practica solamente incluyo 4 de los 5 ejercicios
+como usted nos habia indicado.
+
+- Mauricio Vargas Escobar, 56224
