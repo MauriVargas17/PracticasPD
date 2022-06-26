@@ -19,17 +19,17 @@ public class Tienda {
         }
     }
 
-    public void buscarModelo(String modelo){
+    public void buscarCelular(String modelo){
         List<Celular> filtro = tipoBusqueda.execute(modelo, inventario);
         showIterateFiltered(filtro);
     }
 
-    public void buscarModelo(int precio){
+    public void buscarCelular(int precio){
         List<Celular> filtro = tipoBusqueda.execute(precio, inventario);
         showIterateFiltered(filtro);
     }
 
-    public void buscarModelo(String modelo, int precio){
+    public void buscarCelular(String modelo, int precio){
         List<Object> t = new ArrayList<>();
         t.add(modelo); t.add(precio);
         List<Celular> filtro = tipoBusqueda.execute(t, inventario);

@@ -23,7 +23,9 @@ public class WhatsApp implements ICanal{
 
     private void iterateUsers(String s, Persona sender){
         for (Persona p: users){
-            p.receive(s, sender);
+            if (p != sender){
+                p.receive(s, sender);
+            }
         }
     }
 }

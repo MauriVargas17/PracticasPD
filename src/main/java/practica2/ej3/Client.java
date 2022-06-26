@@ -18,12 +18,12 @@ public class Client {
         Celular[] inventario2 = {c1,c2,c3,c4,c5,c6,c7,c8,c9,c10};
 
         tienda.setInventario(inventario1);
-        tienda.buscarModelo(733);
+        tienda.buscarCelular(733);
 
         tienda.setInventario(inventario2);
-        tienda.buscarModelo("X pro max");
+        tienda.buscarCelular("X pro max");
 
-        tienda.buscarModelo("SE", 456);
+        tienda.buscarCelular("SE", 456);
 
 
     }

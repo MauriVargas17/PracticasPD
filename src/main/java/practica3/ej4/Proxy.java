@@ -9,7 +9,6 @@ public class Proxy implements IServer{
     private Server1 s1 = Server1.getServer();
     private Server2 s2 = Server2.getServer();
 
-
     public Proxy(List<User> users, WebApp webApp) {
         this.users.list = users;
         app = webApp;
